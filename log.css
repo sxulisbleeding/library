@@ -1,0 +1,58 @@
+body {
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Georgia", serif;
+    color: aliceblue;
+    background-color: #d8dfec;
+    background-image: url("1667891372_3-41.jpg");
+}
+.container {
+    width: 200px;
+    height: 120px;
+    display:block;
+    margin:auto;
+    border-radius: 10px;
+}
+.perexod{
+    padding: 2px 1px 0;
+    width: 200px;
+    height: 120px;
+}
+.save-button{
+    color: #000000;
+   border-radius: 25px;
+   border: 3px solid #E7E5DD;
+}
+a{
+    color: #4012c0;
+   
+   
+}
+.name{
+    color: #000000;
+    border-radius: 25px;
+    border: 3px solid #E7E5DD;
+}
+.year{
+    color: #000000;
+    border-radius: 25px;
+    border: 3px solid #E7E5DD;
+}
+.author{
+    color: #000000;
+    border-radius: 25px;
+    border: 3px solid #E7E5DD;
+}
+.cс {
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+}
+.p{
+    width: 200px;
+    height: 120px;
+    display:block;
+    margin:auto;
+    border-radius: 10px;
+}
