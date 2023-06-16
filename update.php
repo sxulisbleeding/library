@@ -7,9 +7,10 @@
 </head>
 <body>
     <div class="container">
-<?php
+    <?php
+    include "db.php"; 
 if (isset($_POST["id"]) && isset($_POST["name"]) && isset($_POST["year"]) && isset($_POST["author"])) {
-    $db = new PDO('pgsql:host=localhost; port=5432; dbname=negr', 'postgres', 'aslal');
+   
 
     $stmt = $db->prepare("UPDATE a SET name = :name, year = :year, author = :author WHERE id = :id");
     $stmt->bindParam(':id', $_POST['id']);

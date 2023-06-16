@@ -7,11 +7,12 @@
 </head>
 <body>
     <div class="container">
-<?php
+<?php 
+include "db.php"; 
 session_start();
 
 if (isset($_POST["name"]) && $_POST["name"] != "" && isset($_POST["year"]) && $_POST["year"] != "" && isset($_POST["author"]) && $_POST["author"] != "") {
-    $db = new PDO('pgsql:host=localhost; port=5432; dbname=negr', 'postgres', 'aslal');
+    
     $name = $_POST['name'];
     $year = $_POST['year'];
     $author = $_POST['author'];
